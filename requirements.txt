@@ -1,0 +1,5 @@
+Flask==3.0.3
+Flask-Bcrypt==1.0.1
+Flask-Cors==4.0.1
+
+
