@@ -1,0 +1,90 @@
+/*Styling for user's tasks list page*/
+body {
+    font-family: Arial, sans-serif;
+    background: #843d69ff;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.container {
+    font-family: "Arial", Helvetica, sans-serif;
+    background: rgba(216, 217, 172, 1);
+    justify-content: center;
+    padding: 20px;
+    width: 65%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(59, 140, 184, 0.1);
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+    padding: 10px 5px 10px 25px;
+}
+
+input {
+    flex: 1;
+    width: 70%;
+    text-indent: 10px;
+    padding: 9px 0px 9px 0px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 15px;
+    background: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #a04583;
+}
+
+.list-container  {
+    font-family: "Arial", Helvetica, sans-serif;
+    width: 100%;
+}  
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 15px 40px;
+  list-style-type: none;
+  background: #d0f3f8ff;
+  text-align: left;
+  font-size: 15px;
+  transition: 0.2s;
+  
+  /* Make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+  background: #cdfad5ff;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+  background: #ddd;
+}
+
+/*Styling for login & registration pages*/
+.login_container {
+    font-family: "Arial", Helvetica, sans-serif;
+    background: rgba(216, 217, 172, 1);
+    margin-top: 110px;
+    justify-content: right;
+    padding: 20px;
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(59, 140, 184, 0.1);
+}

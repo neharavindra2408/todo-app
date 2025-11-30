@@ -1,0 +1,32 @@
+<!--Login page-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Login - Todoli</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <!-- Header declaration, input text, button-->
+    <link rel="stylesheet" href="/static/style.css">
+    <div class="login_container" style="text-align:center;">
+        <h1 style="text-align: center;">Login</h1>
+        <form id="loginForm">
+            <div class="input-group">
+                <input type="email" id="email" placeholder="Email"><br><br>
+                <p class="error-msg" id="emailError"></p>
+            </div>
+
+            <div class="input-group">
+                <input type="password" id="password" placeholder="Enter your password">
+                <p class="error-msg" id="passwordError"></p>
+            </div>
+
+            <button type="button" onclick="loginUser()" class="btn">Login</button>
+            <p>New user? <a href="register.html">Register here</a></p>
+            <p id="serverError" class="server-error"></p>
+        </form>
+        <script src="/static/login.js"></script>
+    </div> 
+</body>
+</html>
